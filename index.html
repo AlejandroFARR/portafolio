@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alejandro</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/alejo.png" alt="">
+            </div>
+            <h1>ALEJANDRO RODRIGUEZ</h1>
+            <h2>Licenciado en Informática y Desarrolador</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/FARR22S199509221" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/felipe-alejandro-rodr%C3%ADguez-romero-84a367185/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo2">Sobre Mí</h2>
+            <p><span>Hola, soy Alejandro.</span> Profesional en el campo de las tecnologías de la información y la comunicación,
+                graduado en la Universidad de Nariño como Licenciado en Informática en el año
+                2021, con experiencia como monitor en la Dependencia de infraestructura de
+                Informática y Telecomunicaciones de la Universidad de Nariño. Además, como
+                docente de Tecnología e Informática en el año 2020 en la I.E.M. Ciudadela
+                Educativa de Pasto. 
+                <br><br>
+                Tengo la capacidad de desempeñar labores relacionadas en ámbito de la
+                programación y desarrollo de software, poseo conocimientos en la aplicación de
+                metodologías ágiles, como SCRUM, análisis de requerimientos, levantamiento de
+                información, creación de modelos E/R, elaboración de Bases de datos, manejo de
+                entornos virtuales, control de versiones distribuidas, lenguajes de programación
+                de frontend y backend. Además, fundamentos de ciberseguridad en informática,
+                manejo de Linux, mantenimiento de equipos de cómputo y periféricos,
+                implementación, cableado estructurado, habilidades pedagógicas y didácticas.
+                Busco una experiencia que me permita enseñar mis destrezas, conocimientos y
+                habilidades en el campo de laboral, para así obtener el beneficio de explayar
+                pragmática y cognitivamente mi vocación profesional en el ámbito social. </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            22-09-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +573214999903
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            loudnessfarr@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Cr 6E # 21-05 Santa Barbara-Pasto-Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Freelancer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-guitar"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-soccer-ball"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>ESTUDIAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-file-video"></i>
+                            <span>ANIMACION</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mobile"></i>
+                            <span>MOVILES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1WGTkF-4oqDzdr3bWOaELjsX7ZVU4AzG4/view?usp=share_link"id="enlace" target="_blank"><button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button></a>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript, Java y Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML, CSS & BootStrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop, Ilustreitor, Anime</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GIT, SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Mantenimiento de Software y Hadware</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pedagogía</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Licenciado en Informática</h4>
+                        <span class="casa">Universidad Nariño Colombia</span>
+                        <span class="fecha">2015-2021</span>
+                        <p>Un licenciado en informática es un profesional altamente capacitado en el campo de las tecnologías de la información y la comunicación. Este profesional ha demostrado su habilidad en el desarrollo de soluciones tecnológicas y su capacidad para enseñar a otros. Además, cuenta con una formación sólida en programación, telemática, diseño y animación, comunicación y trabajo en equipo, y tiene una visión amplia de la didáctica. Con su formación y experiencia, este licenciado está listo para asumir retos y contribuir al crecimiento de una organización en el campo de las TIC.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Misión TIC</h4>
+                        <span class="casa">Universidad Nacional de Colombia</span>
+                        <span class="fecha">2022-2022</span>
+                        <p>Diplomado habilidades en programación con énfasis en aplicaciones móviles.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico en Sistemas</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2010-2012</span>
+                        <p>Profesional capacitado en el diseño, implementación, mantenimiento y administración de sistemas informáticos. Este profesional posee conocimientos en hardware, software, redes y seguridad informática. Además, tiene habilidades en el diagnóstico y resolución de problemas técnicos, y puede trabajar en proyectos de tecnología de la información, brindando soporte a usuarios y manteniendo una infraestructura tecnológica eficiente. En resumen, un Técnico en Sistemas es un especialista clave en el mundo digital actual y es fundamental para garantizar la continuidad y productividad de las empresas y organizaciones</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Monitor de la Dependencia de Infraestructura de informática y
+                            telecomunicaciones.</h4>
+                        <span class="casa">Universidad de Nariño Colombia</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>
+                            <ul class="item1">
+                                <li >Desarrollo de un aplicativo para escritorio en C#, de inventario y mantenimientos
+                                    anuales.</li>
+                                <li >Mantenimiento a el código fuente página web tanto front como back de la
+                                    Universidad de Nariño.</li>
+                                <li>Aplicar configuraciones de redes de datos, utilizando un proxy, SSID,
+                                    segmentación de red y APN filtrado por MAC, VPN.</li>
+                                <li>Reacondicionar Hardware y Software en dispositivos tecnológicos de la
+                                    universidad.</li>
+                                <li>Eliminar software malicioso y no licenciado para evitar inconvenientes
+                                    deliberados en la infraestructura tecnología de la universidad.</li>
+                                <li>Mantenimientos de Router, Switch, HUB, Firewall, Gateway, host y puntos de red de
+                                    cableado estructurado tanto eléctrico como de datos.</li>
+                                <li>Realizar ponchado de RJ-45, Jack e instalación de Face-Plate.</li>
+                             </ul>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Docente del área de Tecnología e Informatica</h4>
+                        <span class="casa">I.E.M Ciudadela Educativa de Pasto</span>
+                        <span class="fecha">2020 - 2020</span>
+                        <p>
+                            <ul class="item1">
+                                <li>Participación en los procesos de planeación institucional.</li>
+                                <li>Realización de procesos sistemáticos de enseñanza en el área de tecnología e
+                                    informática.</li>
+                                <li>Diseño de material pedagógico.</li>
+                                <li>Gestión de proyecto extracurricular.</li>
+                                <li>Actividades de actualización para docentes en plataformas virtuales para uso
+                                    educativo.</li>
+                                <li>Identificar el contexto educativo y los conocimientos previos de los estudiantes para
+                                    fomentar el aprendizaje significativo en el proceso de enseñanza y aprendizaje
+                                    estructurado y adecuado a las necesidades de los educandos.</li>
+                                <li>Implementar la aplicación de nuevas didácticas en el campo del TIC para el área de
+                                    Tecnología a través de la música y multimedia como instrumentos que permitan
+                                    proliferar las habilidades cognitivas de los alumnos.</li>
+                                <li>Crear herramientas didácticas y guías digitales que fomenten el proceso de
+                                    enseñanza y aprendizaje.</li> 
+
+                            </ul>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                <img src="img/domicilios.png" alt="">
+                    <a href="https://domiciliosuperapid.wixsite.com/superrapido?fbclid=IwAR1mJT96pB44SomgwUCgiqILBT7idtDL0xMtB8alqqZnUPZ4CFPGlOvsA8g" target="_blank">
+                        <div class="overlay">
+                            <h3>Super Rapido Domicilios</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </a>
+                   
+                </div>
+                <div class="proyecto">
+                    <img src="img/encriptador.png" alt="">
+                    <a href="https://alejandrofarr.github.io/" target="_blank">
+                        <div class="overlay">
+                            <h3>Encriptador</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ecommerce.png" alt="">
+                    <a href="https://alejandrofarr.github.io/ecommerce/index.html" target="_blank">
+                        <div class="overlay">
+                            <h3>Ecommerce</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ahorcado.png" alt="">
+                    <a href="https://alejandrofarr.github.io/juegoahorcado/" target="_blank">
+                        <div class="overlay">
+                            <h3>Juego del Ahorcado</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </a>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button class="button1">
+                        Enviar Mensaje    <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Santa Barbara-Pasto-Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llama:+573214999903
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: loudnessfarr@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/FARR22S199509221" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/felipe-alejandro-rodr%C3%ADguez-romero-84a367185/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            <p>Copyright © 2023 Creado por Felipe Alejandro Rodriguez</p>
+       
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
